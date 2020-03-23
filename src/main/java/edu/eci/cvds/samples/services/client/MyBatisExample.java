@@ -16,8 +16,7 @@
  */
 package edu.eci.cvds.samples.services.client;
 
-
-
+import edu.eci.cvds.samples.services.impl.ServiciosAlquilerImpl;
 import java.io.IOException;
 import java.io.InputStream;
 import java.sql.SQLException;
