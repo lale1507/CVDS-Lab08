@@ -246,9 +246,14 @@ public class ServiciosAlquilerItemsStub implements ServiciosAlquiler {
         Cliente c1=new Cliente("Oscar Alba", 1026585664, "6788952", "KRA 109#34-C30", "oscar@hotmail.com", false,list1);
         Cliente c2=new Cliente("Carlos Ramirez", 1026585663, "6584562", "KRA 59#27-a22", "carlos@hotmail.com", false,list2);
         Cliente c3=new Cliente("Ricardo Pinto", 1026585669, "4457863", "KRA 103#94-a77", "ricardo@hotmail.com", false,list3);
+        Cliente c4=new Cliente("Laura Bernal", 521245212, "8545216", "Cll 103#98-a20", "laura@hotmail.com", false,list1);
+        Cliente c5=new Cliente("Paola Cuellar", 2125012452, "8457952", "KRA 10#14-a71", "paola@hotmail.com", false,list2);
+
         clientes.put(c1.getDocumento(), c1);
         clientes.put(c2.getDocumento(), c2);
         clientes.put(c3.getDocumento(), c3);
+        clientes.put(c4.getDocumento(), c4);
+        clientes.put(c5.getDocumento(), c5);
 
     }
 }

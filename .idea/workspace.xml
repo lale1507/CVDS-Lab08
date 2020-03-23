@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71d24b6d-86a1-47f8-88bb-d525a6ca1d02" name="Default Changelist" comment="Parte I completa MyBatis" />
+    <list default="true" id="71d24b6d-86a1-47f8-88bb-d525a6ca1d02" name="Default Changelist" comment="Parte I completa MyBatis">
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/eci/cvds/guice/GuiceContextListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/eci/cvds/view/AlquilerItemBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/edu/eci/cvds/view/BasePageBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/alquilerCliente.xhtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.xhtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_1_3_9.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_23_6_android.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_inject_guice_4_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_j2objc_j2objc_annotations_1_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_checkerframework_checker_compat_qual_2_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_mojo_animal_sniffer_annotations_1_14.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyBATIS-Guice-DAO-VideorentalServicesLayer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MyBATIS-Guice-DAO-VideorentalServicesLayer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/cvds/samples/services/impl/ServiciosAlquilerItemsStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/cvds/samples/services/impl/ServiciosAlquilerItemsStub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/edu/eci/cvds/test/ServiciosAlquilerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/edu/eci/cvds/test/ServiciosAlquilerTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -22,7 +41,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
@@ -38,6 +57,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USUARIO\Desktop\CVDS08\CVDSlab8\src\main\webapp" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="MyBatisExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -96,33 +120,45 @@
     <option name="LAST_COMMIT_MESSAGE" value="Parte I completa MyBatis" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1867" height="225" key="GridCell.Tab.0.bottom" timestamp="1584940981446">
+    <state x="452" y="94" key="#Intentions" timestamp="1584989225978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="225" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584940981446" />
-    <state width="1867" height="225" key="GridCell.Tab.0.center" timestamp="1584940981446">
+    <state x="452" y="94" key="#Intentions/0.0.1920.1040@0.0.1920.1040" timestamp="1584989225978" />
+    <state width="1867" height="225" key="GridCell.Tab.0.bottom" timestamp="1584942375029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="225" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584940981446" />
-    <state width="1867" height="225" key="GridCell.Tab.0.left" timestamp="1584940981446">
+    <state width="1867" height="225" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1584942375029" />
+    <state width="1867" height="225" key="GridCell.Tab.0.center" timestamp="1584942375029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="225" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584940981446" />
-    <state width="1867" height="225" key="GridCell.Tab.0.right" timestamp="1584940981446">
+    <state width="1867" height="225" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1584942375029" />
+    <state width="1867" height="225" key="GridCell.Tab.0.left" timestamp="1584942375027">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1867" height="225" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584940981446" />
+    <state width="1867" height="225" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1584942375027" />
+    <state width="1867" height="225" key="GridCell.Tab.0.right" timestamp="1584942375029">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1867" height="225" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584942375029" />
     <state x="463" y="151" key="SettingsEditor" timestamp="1584896085801">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="463" y="151" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584896085801" />
-    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1584895207256">
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog" timestamp="1584981095709">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584895207256" />
-    <state x="0" y="0" width="957" height="1167" key="find.popup" timestamp="1584914485508">
+    <state x="668" y="347" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584981095709" />
+    <state x="412" y="137" key="com.intellij.javaee.MapExternalResourceDialog" timestamp="1584989516832">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="0" y="0" width="957" height="1167" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584914485508" />
+    <state x="412" y="137" key="com.intellij.javaee.MapExternalResourceDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584989516832" />
+    <state x="0" y="0" width="957" height="1040" key="find.popup" timestamp="1584996537831">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="0" y="0" width="957" height="1040" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584996537831" />
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup" timestamp="1584983520847">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="539" y="5" width="840" height="1034" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1584983520847" />
   </component>
 </project>
